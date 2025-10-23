@@ -2,6 +2,8 @@
 
 This repo provides a deeper look at the ephemeral data stored in the Azure AI FOundry Agent service.
 
+See more here: https://learn.microsoft.com/en-us/azure/ai-foundry/responsible-ai/openai/data-privacy?tabs=azure-portal#how-does-azure-ai-foundry-process-data-to-provide-azure-direct-models
+
 ## Overview: Foundry Agent Service
 
 When you use an Agent, there are a series of steps that are involved.
