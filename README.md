@@ -274,6 +274,7 @@ There are also sample repos showing how to clean up agent data such as:
 
 Deleting an Agent by it's ID, will not delete the associated thread messages or any files stored in containers relating to the agent.
 Likewise, the document_chunks_hnsw_tnt... index is also still found in the search service after agent deletion.
+The index suffix maps to the agent entity user_id.
 
 To delete content immediately, you will need to call the associated service APIs, referencing the items IDs, such as the following CosmosDB example for the thread message store above:
 
