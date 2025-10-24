@@ -109,6 +109,7 @@ Messages and content stored in Azure CosmosDB have the following form in Cosmos 
 
 4d194f72-3412-46da-877d-8401970389d7-agent-entity-store
   - contains items relating to the configuration of each agent
+  - At the time of investigation, the Partition key is set to the workspace id and month of creation.
 ```json
 {
     "hard_deleted_at": null,
@@ -155,6 +156,7 @@ Messages and content stored in Azure CosmosDB have the following form in Cosmos 
 
 4d194f72-3412-46da-877d-8401970389d7-system-thread-message-store
   - Contains items relating to system messages, such as the uploading of files and setting up of the agent.
+  - The Cosmos container Partition Key is set to the thread_id of the messages.
 ```json
 {
     "hard_deleted_at": null,
@@ -200,7 +202,7 @@ Messages and content stored in Azure CosmosDB have the following form in Cosmos 
 
 4d194f72-3412-46da-877d-8401970389d7-thread-message-store
   - Contains copies of the messages exchanged by agents and users
-
+  - The Cosmos container Partition Key is set to the thread_id of the messages.
 ```json
 {
     "hard_deleted_at": null,
@@ -264,7 +266,7 @@ Messages and content stored in Azure CosmosDB have the following form in Cosmos 
 ### Managing Stored Data
 
 Data will be persisted indefinitely unless deleted.  
-Use the delete function with the thread ID of the thread you want to delete to delete associated data.  
+Using the delete function in the agent service SDK with the thread ID of the thread or agent you want to delete, will populate the ```deleted_at``` field of the item in CosmosDB, and the items will no longer be listed or visible to the API.  
 You can use customer managed keys (CMK) to add an additional layer of encryption to data stored in your own resources.  
 
 There are also sample repos showing how to clean up agent data such as:
@@ -273,6 +275,44 @@ There are also sample repos showing how to clean up agent data such as:
 
 Deleting an Agent by it's ID, will not delete the associated thread messages or any files stored in containers relating to the agent.
 Likewise, the document_chunks_hnsw_tnt... index is also still found in the search service after agent deletion.
+The index suffix maps to the agent entity user_id.
+
+To delete content immediately, you will need to call the associated service APIs, referencing the items IDs, such as the following CosmosDB example for the thread message store above:
+
+```python
+# Deleting all messages matching a specific thread ID
+from azure.cosmos import CosmosClient, PartitionKey
+
+# Initialize the Cosmos client
+endpoint = "<your-cosmos-db-endpoint>"
+key = "<your-cosmos-db-key>"
+client = CosmosClient(endpoint, key)
+
+# Set database and container
+database_name = "enterprise_memory"
+container_name = "4d194f72-3412-46da-877d-8401970389d7-thread-message-store"
+database = client.get_database_client(database_name)
+container = database.get_container_client(container_name)
+
+# Set the partition key value
+target_thread_id = "<your-thread-id>"
+
+# Query items with the partition key
+query = "SELECT * FROM c"
+items = list(container.query_items(
+    query=query,
+    partition_key=target_thread_id  # Efficient query within partition
+))
+
+# Delete each item
+for item in items:
+    container.delete_item(item=item['id'], partition_key=target_thread_id)
+    print(f"Deleted item with id: {item['id']}")
+
+print(f"Deleted {len(items)} items with thread_id: {target_thread_id}")
+
+
+```
 
 The relationship between Blobs and the indexes can be determined by checking the blob metadata for embeddings used by the assistant.  
 For example:
