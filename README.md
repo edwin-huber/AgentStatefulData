@@ -85,11 +85,12 @@ Files stored in Azure Storage can be found in the following containers, and blob
 -- sample of the embeddings blob, using german Government tax documentation:
 ```json
 embeddingcache-assistant-UvLWpw7iX93rVFBz4MQqDz
-{"doc":{"id":"assistant-UvLWpw7iX93rVFBz4MQqDz","content":["\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSteuern von A bis Z, Ausgabe2025\n\n\nA\nu\n\nsg\nab\n\ne \n20\n\n25\n\n S\nte\n\nue\nrn\n\n v\non\n\n A\n–Z\n\n \n\n\n\n\n\nIn einem Gemeinwesen gibt es viele Aufgaben, die ein \nEinzelner oder eine Einzelne nicht lösen kann: Bildung \nund öffentliche Infrastruktur, Gesundheitswesen und \nsoziale Absicherung, innere und äußere Sicherheit \ngehören beispielsweise dazu. Hier wird der Staat für \nuns alle tätig. Seine Leistungen finanziert er mit den \nSteuereinnahmen. Sie sind seine wichtigste Einnahme-\nquelle. Ohne diese Gelder könnte er seinen Aufgaben \nnicht nachkommen.\n\nDie vorliegende Broschüre gibt einen Überblick über \ndie wesentlichen steuerrechtlichen Grundsätze und  \nBestimmungen sowie über die verschiedenen Steuer-\narten in Deutschland.\n\nDas Bundesministerium der Finanzen\n\nWarum zahlen wir Steuern?\n\n \nWas Steuern sind und wozu wir sie zahlen\n\nVorwort\n\nhttps://www.bundesfinanzministerium.de/Content/DE/Video/Finanzisch/steuern/steuern.html\nhttps://www.bundesfinanzministerium.de/Content/DE/Downloads/Broschueren_Bestellservice/was-steuern-sind-und-wozu-wir-sie-zahlen.pdf?__blob=publicationFile&v=7\n\n\nInhalt\n\nSteuern und Abgaben: Ein Überblick in Fakten und Zahlen 6\nAbgabenordnung 7\n\nSteuerberatung (Hilfeleistung in Steuersachen) 13\n\nSteuerrechtsprechung  15\n\nInternationales und supranationales Steuerrecht 16\n\nEinteilung der Steuern 22\nDie Steuerkompetenzen auf einen Blick 25\n\nDie einzelnen Steuern in  alphabetischer Folge 28\nAbgeltungsteuer 29\n\nAbzugsteuern bei beschränkt Steuerpflichtigen 32\n\nAlkoholsteuer 34\n\nAlkopopsteuer 36\n\nBesitz- und Verkehrsteuern 37\n\nBiersteuer 38\n\nEinfuhrumsatzsteuer 40\n\nEinkommensteuer 42\n\nEnergiesteuer 54\n\nErbschaftsteuer/Schenkungsteuer 58\n\nFeuerschutzsteuer 66\n\nGetränkesteuer 67\n\nGewerbesteuer 68\n\nGrunderwerbsteuer 70\n\nGrundsteuer 72\n\nHundesteuer 76\n\nJagd- und Fischereisteuer 77\n\nKaffeesteuer 78\n\n4\n\n\n\nKapitalertragsteuer 79\n\nKirchensteuer 81\n\nKörperschaftsteuer 83\n\nKraftfahrzeugsteuer 86\n\nLohnsteuer 90\n\nLuftverkehrsteuer 97\n\nMindeststeuer 99\n\nÖrtliche Steuern 100\n\nRennwett- und Lotteriesteuer 101\n\nSchankerlaubnissteuer 103\n\nSchaumweinsteuer 104\n\nSolidaritätszuschlag 105\n\nSpielbankabgabe 107\n\nSteuerabzug bei Bauleistungen 108\n\nSteueridentifikationsnummer  110\n\nStromsteuer 111\n\nTabaksteuer 114\n\nUmsatzsteuer 119\n\nVerbrauchsteuern (besondere) 127\n\nVergnügungsteuer 128\n\nVersicherungsteuer 129\n\nZölle 131\n\nZweitwohnungsteuer 134\n\nZwischenerzeugnissteuer 135\n\nAbkürzungsverzeichnis 138\nRegister 140\n\n5\n\n\n\n6\n\n Steuern und  \n Abgaben:  \n Ein Überblick  \n in Fakten  \n und Zahlen \n\n\n\n7Abgabenordnung\n\nAbgabenordnung\n\nAllgemeine Regeln\n\nDie für alle Steuern geltenden gemeinsamen Regeln, insbesondere \ndiejenigen zum Besteuerungsver
-...
-946,-0.032984018325805664,0.02516789920628071,0.055372852832078934,-0.049710508435964584,0.02553265169262886,-0.03329665958881378,0.034026164561510086,0.04383973404765129,0.058117177337408066,0.004264126531779766,-0.07176932692527771,0.04314497113227844,-0.005644973833113909,0.0036214678548276424,-0.048251498490571976,0.003295796224847436,-0.0297359861433506,-0.013443722389638424,0.12610003352165222,0.05314959958195686,0.017742587253451347,-0.0896248146891594,-0.07399258017539978,0.07065770030021667,0.09733671694993973,-0.07065770030021667,0.0024729326833039522,0.09455765783786774,0.020964564755558968,0.02160722389817238,-0.042728111147880554,0.0101435836404562,0.06648910790681839,-0.0716998502612114,0.03142079338431358,0.044291332364082336,0.07955070585012436,0.00500665744766593,-0.04047011956572533,0.07420101016759872,0.001320055453106761,0.07559054344892502,0.05790874734520912,0.012141035869717598,0.07003241777420044],"token_length":725,"tenant_id":null},{"id":"99d69bbc-7818-48e2-99f9-35605378922c","text":"Steuerpflichtigen \n\t Alkoholsteuer \n\t Alkopopsteuer \n\t Besitz- und \n Verkehrsteuern \n\t Biersteuer \n\t Einfuhrumsatzsteuer \n\t Einkommensteuer \n\t Energiesteuer \n\t Erbschaftsteuer/ \n Schenkungsteuer \n\t Feuerschutzsteuer \n\t Getränkesteuer \n\t Gewerbesteuer \n\t Grunderwerbsteuer \n\t Grundsteuer \n\t Hundesteuer \n\t Jagd- und \n Fischereisteuer \n\t Kaffeesteuer \n\t Kapitalertragsteuer \n\t Kirchensteuer \n\t Körperschaftsteuer \n\t Kraftfahrzeugsteuer \n\t Lohnsteuer \n\t Luftverkehrsteuer \n\t Mindeststeuer \n\t Örtliche Steuern \n\t Rennwett- und \n Lotteriesteuer \n\t Schankerlaubnis- \n steuer \n\t Schaumweinsteuer \n\t Solidaritätszuschlag \n\t Spielbankabgabe \n\t Steuerabzug bei \n Bauleistungen \n\t Steueridentifikationsnummer \n\t Stromsteuer \n\t Tabaksteuer \n\t Umsatzsteuer \n\t Vergnügungsteuer \n\t Versicherungsteuer \n\t Zölle \n\t Zweitwohnungsteuer \n\t Zwischenerzeugnissteuer \n\tAbkürzungsverzeichnis\n\tRegister\n\tImpressum","metadata":{"source":"file","source_name":"steuern-von-a-z.pdf","url":null,"created_at":"2025-10-22T12:03:16.849178+00:00","file_created_at":null,"file_modified_at":null,"mimetype":"application/pdf","source_mimetype":null,"version":null,"reader_ids":null,"num_pages":146,"authorization_policy":"default","allow_all_readers":null,"document_id":"assistant-UvLWpw7iX93rVFBz4MQqDz","image_asset_pointers":[],"user_metadata":{},"vocabulary":null,"requires_fga_filtering":false,"content_location":null},"embedding":[0.05474122613668442,0.04454757273197174,-0.015654534101486206,0.07757765054702759,  
+{"doc":{"id":"assistant-UvLWpw7iX93rVFBz4MQqDz","content":["\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSteuern von A bis Z, Ausgabe2025\n\n\nA\nu\n\nsg\nab\n\ne \n20\n\n25\n\n S\nte\n\nue\nrn\n\n v\non\n\n A\n–Z\n\n \n\n\n\n\n\nIn einem Gemeinwesen gibt es viele Aufgaben, die ein \nEinzelner oder eine Einzelne nicht lösen kann: Bildung \nund öffentliche Infrastruktur, Gesundheitswesen und \nsoziale Absicherung, innere und äußere Sicherheit \ngehören beispielsweise dazu. Hier wird der Staat für \nuns alle tätig. Seine Leistungen finanziert er mit den \nSteuereinnahmen. Sie sind seine wichtigste Einnahme-\nquelle. Ohne diese Gelder könnte er seinen Aufgaben \nnicht nachkommen.\n\nDie vorliegende Broschüre gibt einen Überblick über \ndie wesentlichen steuerrechtlichen Grundsätze und  \nBestimmungen sowie über die verschiedenen Steuer-\narten in Deutschland.\n\nDas Bundesministerium der Finanzen\n\nWarum zahlen wir Steuern?\n\n \nWas Steuern sind und wozu wir sie zahlen\n\nVorwort\n\nhttps://www.bundesfinanzministerium.de/Content/DE/Video/Finanzisch/steuern/steuern.html\nhttps://www.bundesfinanzministerium.de/Content/DE/Downloads/Broschueren_Bestellservice/was-steuern-sind-und-wozu-wir-sie-zahlen.pdf?__blob=publicationFile&v=7\n\n\nInhalt\n\nSteuern und Abgaben: Ein Überblick in Fakten und Zahlen 6\nAbgabenordnung 7\n\n  
 ...  
-013635661453008652,0.07929865270853043,0.08088727295398712,0.00438525527715683,0.04957820847630501],"token_length":528,"tenant_id":null}],"total_token_length":140048},"chunking_strategy":{"max_chunk_size_tokens":800,"chunk_overlap_tokens":400,"override_chunk_level_modification_time":false}}
+042728111147880554,0.0101435836404562,0.06648910790681839,-0.0716998502612114,0.03142079338431358,0.044291332364082336,0.07955070585012436,0.00500665744766593,-0.04047011956572533,0.07420101016759872,0.001320055453106761,0.07559054344892502,0.05790874734520912,0.012141035869717598,0.07003241777420044],"token_length":725,"tenant_id":null},{"id":"99d69bbc-7818-48e2-99f9-35605378922c","text":"Steuerpflichtigen \n\t Alkoholsteuer \n\t Alkopopsteuer \n\t Besitz- und \n Verkehrsteuern \n\t Biersteuer \n\t Einfuhrumsatzsteuer \n\t Einkommensteuer \n\t Energiesteuer \n\t Erbschaftsteuer/ \n Schenkungsteuer \n\t Feuerschutzsteuer \n\t Getränkesteuer \n\t Gewerbesteuer \n\t Grunderwerbsteuer \n\t Grundsteuer \n\t Hundesteuer \n\t Jagd- und \n Fischereisteuer \n\t Kaffeesteuer \n\t Kapitalertragsteuer \n\t Kirchensteuer \n\t Körperschaftsteuer \n\t Kraftfahrzeugsteuer \n\t Lohnsteuer \n\t Luftverkehrsteuer \n\t Mindeststeuer \n\t Örtliche Steuern \n\t Rennwett- und \n Lotteriesteuer \n\t Schankerlaubnis- \n steuer \n\t Schaumweinsteuer \n\t Solidaritätszuschlag \n\t Spielbankabgabe \n\t Steuerabzug bei \n Bauleistungen \n\t Steueridentifikationsnummer \n\t Stromsteuer \n\t Tabaksteuer \n\t Umsatzsteuer \n\t Vergnügungsteuer \n\t Versicherungsteuer \n\t Zölle \n\t Zweitwohnungsteuer \n\t Zwischenerzeugnissteuer \n\tAbkürzungsverzeichnis\n\tRegister\n\tImpressum","metadata":{"source":"file","source_name":"steuern-von-a-z.pdf","url":null,"created_at":"2025-10-22T12:03:16.849178+00:00","file_created_at":null,"file_modified_at":null,"mimetype":"application/pdf","source_mimetype":null,"version":null,"reader_ids":null,"num_pages":146,"authorization_policy":"default","allow_all_readers":null,"document_id":"assistant-UvLWpw7iX93rVFBz4MQqDz","image_asset_pointers":[],"user_metadata":{},"vocabulary":null,"requires_fga_filtering":false,"content_location":null},"embedding":[0.05474122613668442,0.04454757273197174,-0.015654534101486206,0.07757765054702759,  
+...  
+013635661453008652,0.07929865270853043,0.08088727295398712,0.00438525527715683,0.04957820847630501],  
+"token_length":528,"tenant_id":null}],"total_token_length":140048},  "chunking_strategy":{"max_chunk_size_tokens":800,"chunk_overlap_tokens":400,"override_chunk_level_modification_time":false}}
 ```
 
 4d194f72-3412-46da-877d-8401970389d7-azureml-blobstore
@@ -273,3 +274,46 @@ There are also sample repos showing how to clean up agent data such as:
 Deleting an Agent by it's ID, will not delete the associated thread messages or any files stored in containers relating to the agent.
 Likewise, the document_chunks_hnsw_tnt... index is also still found in the search service after agent deletion.
 
+The relationship between Blobs and the indexes can be determined by checking the blob metadata for embeddings used by the assistant.  
+For example:
+```python
+blob_client = blob_service_client.get_blob_client(container=container_name, blob=blob_name)
+
+# Fetch blob properties
+properties = blob_client.get_blob_properties()
+
+# Access metadata
+metadata = properties.metadata
+print("Blob Metadata:", metadata)
+```
+
+Shows the following Blob Metadata:  
+```json
+{'user_id': 'tnt_lxXDZ0HHi5gABpIfs8ew6f2W', 'source': 'file', 'source_name': 'c3RldWVybi12b24tYS16LnBkZg==', 'mimetype': 'application/pdf', 'created_at': '2025-10-22T12:03:16.849178+00:00', 'num_pages': '146'}
+```
+
+We can use the user_id ```tnt_lxXDZ0HHi5gABpIfs8ew6f2W``` as the suffix to search and find the related indexes in the search service:
+
+```python
+index_client = SearchIndexClient(endpoint=endpoint, credential=credential)
+
+# List all indexes
+indexes = index_client.list_indexes()
+
+# Print index names
+for index in indexes:
+    print("Index name:", index.name)
+```
+
+will show the search indexes, where we see the index created for this document and assistant:
+
+```console
+Index name: document_chunks_hnsw_tnt_gujbxpfpicwsb2hlek9clqzv
+Index name: document_chunks_hnsw_tnt_lxxdz0hhi5gabpifs8ew6f2w
+```
+
+This index can now be deleted from the service via:
+
+```python
+index_client.delete_index("document_chunks_hnsw_tnt_lxxdz0hhi5gabpifs8ew6f2w")
+```
