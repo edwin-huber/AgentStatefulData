@@ -43,6 +43,15 @@ Learn more at:
 
 ![Diagram of custom deployment of AI Agent Service in Foundry](AI_Agent_Service.png)
 
+### Data Retention:
+
+The Basic Setup with the previous version of the Agent Service (Foundry Classic) API would retain thread data for a default of 30 Days in the Cosmos DB associated with the Agent.  
+See also: https://learn.microsoft.com/en-us/azure/ai-foundry/openai/how-to/responses?view=foundry&tabs=rest-api#delete-response
+
+The new Agent Service, which implements the Responses API to interact with the service will immediately delete data when a delete command is issued.
+See: https://learn.microsoft.com/en-us/azure/ai-foundry/reference/foundry-project-rest-preview?view=foundry
+
+
 ### Setup Options:
 
 **Basic Setup:**
